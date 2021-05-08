@@ -6,18 +6,17 @@
 #__license__ = "Public Domain"
 #__version__ = "1.0"
 
-print("Welcome to the rollercoster!")
-height = int(input("What is your height in cm? "))
-
-# there are few conditions. when the first IF is False it jumps to the last ELSE. When the first IF is True, it continues to validate next IF condition etc.
+print("Welcome to the rollercoaster!")
+height = int(input("What's your height in cm? "))
 
 if height >= 120:
-  age = int(input("What is your age? "))
-  if age >= 18:
-    ticket_price = 12
-    print(f"Ok you can ride and your ticket price is ${ticket_price}")
+  print("Awesome! You can ride with us!")
+  age = int(input("What's your age? "))
+  if age < 12:
+    print("Please pay $5")
+  elif age < 18:
+    print("Please pay $7")
   else:
-    ticket_price = 7
-    print(f"Ok you can ride and your ticket price is ${ticket_price}")
+    print("Please pay $12")
 else:
-  print("You can't ride!")
+    print("You have to grow up, sorry, you can't ride yet!")
