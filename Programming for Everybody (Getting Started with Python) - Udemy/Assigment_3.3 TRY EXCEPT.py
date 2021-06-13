@@ -12,7 +12,7 @@ score = input("Enter Score: ")
 try:
 	score = float(score)
 except:
-    print("Not a float!")
+    print("Not a number!")
     quit()
     
 if score >= 0.9:
