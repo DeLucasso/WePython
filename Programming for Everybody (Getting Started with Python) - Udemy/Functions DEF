@@ -1,9 +1,9 @@
 def greet(lang):
     if lang == ("eng"):
         print("Hi!")
-    if lang == ("esp"):
+    elif lang == ("esp"):
         print("Ola!")
-    if lang == ("cz"):
+    elif lang == ("cz"):
         print("Ahoj!")
                 
 usr_input = input("Choose your language. Type 'eng' for English, 'esp' for Spanish or 'cz' for Czech")
