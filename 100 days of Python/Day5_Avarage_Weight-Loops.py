@@ -13,4 +13,4 @@ for height in student_heights:
   sum_heights = int(height) + sum_heights
 print(f"Total sum of heights are : {sum_heights}")
 print(f"Number of heights = {len_counter}")
-print(f"Average weight is : {sum_heights / len_counter}")
+print(f"Average height is : {sum_heights / len_counter}")
