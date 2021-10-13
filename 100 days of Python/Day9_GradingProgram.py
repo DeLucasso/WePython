@@ -8,8 +8,6 @@ student_scores = {
 
 
 student_grades = {}
-student_grades_keys = {}
-
 
 print(student_scores)
 for student in student_scores:
